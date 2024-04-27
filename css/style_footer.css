@@ -1,0 +1,50 @@
+.miFooter{
+    background-image: url('/img/fondo_peliculas.avif');
+    background-size: contain;
+
+    max-width: 100%;
+    background-color: orange;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: auto;
+}
+
+.firma{
+    font-size: 1.5rem;
+    background-color: lightsalmon;
+}
+
+.lista_redes{
+    list-style-type: circle;
+    list-style: none;
+
+    display: block;
+
+}
+
+.item_red{
+    background-color: lightblue;
+    display: list-item;
+}
+
+.mi_red{
+    color: red;
+    margin: 5px;
+    width: 10rem;
+    cursor: grab;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img_footer{
+    max-width: 50px;
+    max-height: 50px;
+}

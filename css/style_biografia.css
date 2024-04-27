@@ -1,0 +1,32 @@
+.cuerpo_biografia{
+    background-color: lightpink;
+    font-family: sans-serif;
+    font-size: larger;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-decoration: underline black;
+    margin-bottom: 1rem;
+}
+
+.container_imagenes{
+    min-width: 100%;
+    min-height: 100%;
+    
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.imagen_familia{
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+}
+
