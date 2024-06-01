@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form h2{
+    text-align: center;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input {
+    margin-bottom: 1rem;
+}
